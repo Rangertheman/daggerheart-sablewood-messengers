@@ -1,0 +1,44 @@
+{
+   "id":"daggerheart-sablewood-messengers",
+   "title":"The Sablewood Messengers",
+   "description":"Daggerheart: The Sablewood Messengers",
+   "url":"https://github.com/Rangertheman/daggerheart-sablewood-messengers",
+   "manifest":"https://raw.githubusercontent.com/Rangertheman/daggerheart-sablewood-messengers/master/module.json",
+   "download":"https://github.com/Rangertheman/daggerheart-sablewood-messengers/archive/master.zip",
+   "authors":[
+      {
+         "name":"Krister Persson (Rangertheman)",
+         "discord":"Rangertheman",
+         "flags":{
+            
+         }
+      }
+   ],
+   "version":"0.0.1",
+   "compatibility":{
+      "minimum":"13",
+      "verified":"13"
+   },
+   "relationships":{
+      "systems":[
+         {
+            "id":"daggerheart",
+            "type":"system",
+            "compatibility":{
+               "minimum":"1.2.3",
+               "verified":"1.2.3"
+            }
+         }
+      ]
+   },
+   "packs":[
+      {
+         "label":"The Sablewood Messengers",
+         "name":"the-sablewood-messengers",
+         "path":"./packs/the-sablewood-messengers.db",
+         "type":"Adventure",
+         "system":"daggerheart",
+         "banner":"./modules/daggerheart-sablewood-messengers/img/Cover_image.jpg"
+      }
+   ]
+}
